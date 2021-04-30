@@ -152,6 +152,7 @@ h2 {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  background-color: #eeeded;
 }
 .gallery .photo {
   width: 70%;
