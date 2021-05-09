@@ -12,17 +12,15 @@
 <body>
   <header class="header">
     <ul class="nav">
-      <li><a class="link" href="">УСЛУГИ</a></li>
-      <li><a class="link" href="">3д замеры</a></li>
-      <li><a class="link" href="">галерея</a></li>
-      <li><a class="link" href="">отзывы</a></li>
-      <li><a class="link" href="">контакты</a></li>
+      <li><a class="link" href="./design/des.html">Заявка дизайн</a></li>
+      <li><a class="link" href="./constr/constr.html">Заявка конструктив</a></li>
+      <li><a class="link" href="./montaj/montaj.html">Заявка сборка</a></li>
+      <li><a class="link" href="./design/">3д замер</a></li>
+      <li><a class="link" href="#gallery">галерея</a></li>
+      <li><a class="link" href="#contact">контакты</a></li>
     </ul>
 
-    <div class="title">
-      <h1>Заголовок</h1>
-      <h3>какая-то картинка ,название фирмы</h3>
-    </div>
+
  
   </header>
 
@@ -31,32 +29,31 @@
       <div class="design">
         <h2>DESIGN</h2>
         <p>какой-то текст</p>
-        <button class="btn_for_form">узнать больше</button>
+        <form action="design/des.html" target="_blank">
+        <button type="" class="btn_for_form">узнать больше</button>
+      </form>
       </div>
       
       <div class="constructiv">
         <h2>konstruktiv</h2>
         <p>какой-то текст</p>
-        <button class="btn_for_form">узнать больше</button>
+        <form action="constr/constr.html" target="_blank">
+        <button type="" class="btn_for_form">узнать больше</button>
+        </form>
       </div>
 
       <div class="sborka">
         <h2>sborka</h2>
         <p>какой-то текст</p>
-        <button class="btn_for_form">узнать больше</button>
+        <form action="montaj/montaj.html" target="_blank">
+        <button type="" class="btn_for_form">узнать больше</button>
+        </form>
       </div>
     </div>
     
   </div>
 
-  <div class="d_zamer">
-    <h2>3d zamer</h2>
-    <p>какой-то текст</p>
-
-    <p>контакты тех кто этим занимается, возможно кнопка,вызывающая форму для заполнения заявки</p>
-  </div>
-
-  <div class="gallery">
+  <div class="gallery" id="gallery">
     <h2>галерея</h2>
 
     <div class="photo">
@@ -112,7 +109,7 @@
     </form>
   </div>
 
-  <div class="contact">
+  <div class="contact" id="contact">
     <h2>CONTACT</h2>
 
     <h3>контакты типа: телефон, почта и прочая</h3>
