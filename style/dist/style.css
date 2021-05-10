@@ -42,7 +42,7 @@ h2 {
 
 .content {
   width: 100%;
-  height: 70vh;
+  height: 90vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,7 +57,6 @@ h2 {
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background-color: #fff;
 }
 .content .content_slider .design {
   display: flex;
@@ -65,7 +64,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 35.2vw;
+  height: 45.3vw;
   background-color: #a83102;
 }
 .content .content_slider .design h2 {
@@ -86,7 +85,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 35.2vw;
+  height: 45.3vw;
   background-color: #a83102;
 }
 .content .content_slider .constructiv h2 {
@@ -107,7 +106,7 @@ h2 {
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  height: 35.2vw;
+  height: 45.3vw;
   background-color: #a83102;
 }
 .content .content_slider .sborka h2 {
